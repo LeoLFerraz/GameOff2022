@@ -3297,7 +3297,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Left Hand Layer
     m_StateMachine: {fileID: 1107007109554570102}
-    m_Mask: {fileID: 101100000, guid: b42b228d497d9e44887289809dee9d3c, type: 2}
+    m_Mask: {fileID: 101100000, guid: 54ebd4cc670b0054199e14393e285894, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -3309,7 +3309,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Right Hand Layer
     m_StateMachine: {fileID: 1107872254952608822}
-    m_Mask: {fileID: 101100000, guid: b5966f0788c3cec4e94b2f029b5f22ae, type: 2}
+    m_Mask: {fileID: 101100000, guid: ba10babcbe9e4d14c8d711f7f03917c9, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -3321,7 +3321,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Arms Layer
     m_StateMachine: {fileID: 1107453765463847028}
-    m_Mask: {fileID: 101100000, guid: 898915b4e0b6e3a4cb6ecee3184e9a85, type: 2}
+    m_Mask: {fileID: 101100000, guid: 490631079fd185c448d90d1d139254c5, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -3333,7 +3333,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Upperbody Layer
     m_StateMachine: {fileID: 1107605970199805448}
-    m_Mask: {fileID: 101100000, guid: 949422d60613bcd4a8e9d62e1aa95b09, type: 2}
+    m_Mask: {fileID: 101100000, guid: 41be08b0cea86214e91f98b2ac68cae8, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -3345,7 +3345,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Left Arm Layer
     m_StateMachine: {fileID: 1107066601311128930}
-    m_Mask: {fileID: 101100000, guid: 51f0815a89456a74fb5fa822b9ba9c88, type: 2}
+    m_Mask: {fileID: 101100000, guid: 87adbd1106d167643b3149b56b38735c, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -3357,7 +3357,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Right Arm Layer
     m_StateMachine: {fileID: 1107722637399753818}
-    m_Mask: {fileID: 101100000, guid: aec875feb12c1bf428f09e735f85f55d, type: 2}
+    m_Mask: {fileID: 101100000, guid: 9408a719b44e12344a6ab1ff1efb0d8f, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -3369,7 +3369,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Left Upperbody Layer
     m_StateMachine: {fileID: 1107605992422023442}
-    m_Mask: {fileID: 101100000, guid: c55641033590b5f41b8db69f012503b2, type: 2}
+    m_Mask: {fileID: 101100000, guid: 30e00af138551174c96f24bff9cf8b74, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -3381,7 +3381,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Right Upperbody Layer
     m_StateMachine: {fileID: 1107458188093495412}
-    m_Mask: {fileID: 101100000, guid: fc868a21aba708846b24c7ec9bb9c770, type: 2}
+    m_Mask: {fileID: 101100000, guid: 7bfef8d572a50094680ea5485fdd9e5c, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -3393,7 +3393,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Additive Layer
     m_StateMachine: {fileID: 1107596873204571082}
-    m_Mask: {fileID: 101100000, guid: 949422d60613bcd4a8e9d62e1aa95b09, type: 2}
+    m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 1
@@ -3405,7 +3405,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Additive Left Arm Layer
     m_StateMachine: {fileID: 1107613520487197296}
-    m_Mask: {fileID: 101100000, guid: c55641033590b5f41b8db69f012503b2, type: 2}
+    m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 1
@@ -3417,7 +3417,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Additive Right Arm Layer
     m_StateMachine: {fileID: 1107980421374390680}
-    m_Mask: {fileID: 101100000, guid: fc868a21aba708846b24c7ec9bb9c770, type: 2}
+    m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 1
@@ -3429,7 +3429,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Full Body Layer
     m_StateMachine: {fileID: 1107551138291799000}
-    m_Mask: {fileID: 101100000, guid: 9437e1d21287e314b984c78d370050ca, type: 2}
+    m_Mask: {fileID: 101100000, guid: 75a5d0dfab0167b4caf45231f4a8256d, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -133126,7 +133126,7 @@ AnimatorStateMachine:
     m_Position: {x: 624, y: 132, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102940876748982750}
-    m_Position: {x: 264, y: -48, z: 0}
+    m_Position: {x: 250, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102968324100123734}
     m_Position: {x: 624, y: -48, z: 0}
@@ -134972,7 +134972,7 @@ AnimatorStateMachine:
     m_Position: {x: 624, y: 108, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107134851426115652}
-    m_Position: {x: 624, y: 156, z: 0}
+    m_Position: {x: 620, y: 160, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 1107283083975357522}
     m_Position: {x: 384, y: 156, z: 0}

@@ -4,6 +4,8 @@
 /// https://www.opsive.com
 /// ---------------------------------------------
 
+using System;
+
 namespace Opsive.UltimateCharacterController.Inventory
 {
     using Opsive.Shared.Inventory;

@@ -15,7 +15,7 @@ MonoBehaviour:
   m_ID: 0
   m_CategoryIDs: aa8d8176
   m_Description: 
-  m_Capacity: 2147483647
+  m_Capacity: 1
 --- !u!114 &-6875136893560638543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,12 +26,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
-  m_Name: Key
+  m_Name: DungeonKey
   m_EditorClassIdentifier: 
   m_ID: 1
   m_CategoryIDs: aa8d8176
   m_Description: 
-  m_Capacity: 2147483647
+  m_Capacity: 1
 --- !u!114 &-4963553559758488260
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -40,6 +40,7 @@ namespace BehaviorDesigner.Runtime.Tasks.Movement
         public override TaskStatus OnUpdate()
         {
             if (waypoints.Value.Count == 0) {
+                Debug.Log("Here");
                 return TaskStatus.Failure;
             }
             if (HasArrived()) {

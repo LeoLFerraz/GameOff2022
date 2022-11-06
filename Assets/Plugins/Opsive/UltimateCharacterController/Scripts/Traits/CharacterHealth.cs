@@ -16,8 +16,7 @@ namespace Opsive.UltimateCharacterController.Traits
     /// <summary>
     /// Extends the health component by allowing the character to take fall damage. The amount of damage is specified by a curve.
     /// </summary>
-    public class CharacterHealth : Health
-    {
+    public class CharacterHealth : Health {
         [Tooltip("Should fall damage be applied?")]
         [SerializeField] protected bool m_ApplyFallDamage;
         [Tooltip("The minimum height that the character has to fall in order for any damage to be applied.")]

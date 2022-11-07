@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: WoodOnDungeonEffect
   m_EditorClassIdentifier: 
   m_SpawnedObjects: []
-  m_Decals: []
+  m_Decals:
+  - {fileID: 186514, guid: 3c8e7af1aec6d5045be66c8cb85ec167, type: 3}
+  - {fileID: 186514, guid: 23a3e678761ecce4996ec14aad2c5bf9, type: 3}
+  - {fileID: 186514, guid: d76f44c2c3b262c479412235c0cc215a, type: 3}
+  - {fileID: 186514, guid: 75bb6bb317a90f84c832bfba318ba9ef, type: 3}
   m_MinDecalScale: 1
   m_MaxDecalScale: 1
   m_AllowedDecalEdgeOverlap: 0.25
-  m_AudioConfig: {fileID: 11400000, guid: 03fdcb21c2dc0e141ba3c4ac57e55756, type: 2}
+  m_AudioConfig: {fileID: 11400000, guid: 5c684614fbed37d4aaad46411b4a6f97, type: 2}
   m_AudioClips: []
   m_MinAudioVolume: 1
   m_MaxAudioVolume: 1

@@ -15,4 +15,6 @@ MonoBehaviour:
   m_ImpactEffects:
   - m_SurfaceImpact: {fileID: 11400000, guid: 375fa8b542f1b1542a26ba4e0c25cc68, type: 2}
     m_SurfaceEffect: {fileID: 11400000, guid: a43412498ab632845bcff72aa8ea1e0d, type: 2}
+  - m_SurfaceImpact: {fileID: 11400000, guid: 25769ae6bcba8734e9d5e3d165494b00, type: 2}
+    m_SurfaceEffect: {fileID: 11400000, guid: 28fe0e3eeec7fc845964f1e0a0e6e7a7, type: 2}
   m_AllowFootprints: 1

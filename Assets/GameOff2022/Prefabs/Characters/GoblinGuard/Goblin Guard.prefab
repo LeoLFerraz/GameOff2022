@@ -77,7 +77,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.4
+  m_Radius: 0.25
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6e458a25b435dd4086faf6dce3b39e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SurfaceType: {fileID: 11400000, guid: 8125589b48ab7ac46aed978f4f1e6373, type: 2}
-  m_AllowDecals: 1
+  m_SurfaceType: {fileID: 11400000, guid: 3ab90efdadee25944b72c3939ee53154, type: 2}
+  m_AllowDecals: 0
 --- !u!1 &2466063473298945607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,7 +1777,7 @@ MonoBehaviour:
       startIndex: 
       variableStartIndex: 
       JSONSerialization: '{"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Self","IsShared":true,"GameObjectmValue":0},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Target","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedGameObjectList","Name":"Patrol
-        Waypoints","IsShared":true,"List`1mValue":[1,2,3]},{"Type":"BehaviorDesigner.Runtime.SharedObject","Name":"EventObj","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"BlockProbability","IsShared":true,"SinglemValue":0.25}]}'
+        Waypoints","IsShared":true,"List`1mValue":[1,2,3]},{"Type":"BehaviorDesigner.Runtime.SharedObject","Name":"EventObj","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"BlockProbability","IsShared":true,"SinglemValue":0.5},{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"TimeBlocking","IsShared":true,"SinglemValue":1.35}]}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 

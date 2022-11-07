@@ -279,12 +279,10 @@ GameObject:
   - component: {fileID: 6468095657977158575}
   - component: {fileID: 1104241470427133869}
   - component: {fileID: 920276279560748210}
-  - component: {fileID: 1532838052360363020}
   - component: {fileID: 9085250306012406360}
   - component: {fileID: 4142567761341637681}
   - component: {fileID: 1466425555995691191}
   - component: {fileID: 3822349594115837070}
-  - component: {fileID: 2626120999439525334}
   m_Layer: 30
   m_Name: Third Person Torch
   m_TagString: Untagged
@@ -357,20 +355,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1532838052360363020
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137801576570990699}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 43180043946635588, guid: f04dfdd221012bd4ab4995cdc164ad65, type: 2}
 --- !u!114 &9085250306012406360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,8 +481,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.11070585, y: 1.3444214, z: 0.11876774}
-  m_Center: {x: -0.00056147575, y: 0.5824127, z: 0}
+  m_Size: {x: 0.25, y: 1.5, z: 0.25}
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!114 &3822349594115837070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,18 +497,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Shield: {fileID: 7985388275686095552}
   m_FirstPersonPerspective: 0
---- !u!114 &2626120999439525334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137801576570990699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa25a7ec2cbec8a40988d4328115db41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2513154607966003252
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +676,7 @@ GameObject:
   - component: {fileID: 4770526163272311815}
   - component: {fileID: 1365107242294002647}
   - component: {fileID: 7985388275686095552}
+  - component: {fileID: 3569692002453878029}
   m_Layer: 0
   m_Name: Torch
   m_TagString: Untagged
@@ -933,7 +906,7 @@ MonoBehaviour:
   m_AimItemSubstateIndexAddition: 100
   m_MaxCollisionCount: 20
   m_ForwardShieldSensitivity: -0.8
-  m_SingleHit: 0
+  m_SingleHit: 1
   m_MultiHitFrameCount: 50
   m_CanHitDelay: 0.2
   m_AllowAttackCombos: 0
@@ -1025,7 +998,7 @@ MonoBehaviour:
     m_MinimumYOffset: 0
     m_MinimumZOffset: 0
     m_RequireMovement: 0
-    m_SingleHit: 0
+    m_SingleHit: 1
     m_SurfaceImpact: {fileID: 11400000, guid: 375fa8b542f1b1542a26ba4e0c25cc68, type: 2}
   m_TrailLocation: {fileID: 0}
 --- !u!114 &7985388275686095552
@@ -1052,10 +1025,10 @@ MonoBehaviour:
   m_ApplyImpact: 1
   m_ImpactAnimatorAudioStateSet:
     m_AnimatorAudioStateSelectorData:
-      m_ObjectType: Opsive.UltimateCharacterController.Items.AnimatorAudioStates.Sequence
-      m_ValueHashes: 6dc4e8ab
+      m_ObjectType: Opsive.UltimateCharacterController.Items.AnimatorAudioStates.RandomRecoil
+      m_ValueHashes: ef376db3
       m_ValuePositions: 00000000
-      m_Values: 000080bf
+      m_Values: 14000000
       m_UnityObjects: []
       m_Version: 3.1
     m_States:
@@ -1078,6 +1051,18 @@ MonoBehaviour:
     m_WaitForSlotEvent: 0
   m_DurabilityAttributeName: 
   m_DropWhenDurabilityDepleted: 0
+--- !u!114 &3569692002453878029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7993325097840692130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa25a7ec2cbec8a40988d4328115db41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1718841646
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -905,18 +905,18 @@ MonoBehaviour:
   m_RequireCounterAttackAbility: 0
   m_AimItemSubstateIndexAddition: 100
   m_MaxCollisionCount: 20
-  m_ForwardShieldSensitivity: -0.8
+  m_ForwardShieldSensitivity: 0
   m_SingleHit: 1
   m_MultiHitFrameCount: 50
   m_CanHitDelay: 0.2
   m_AllowAttackCombos: 0
   m_ImpactLayers:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 3221225857
   m_TriggerInteraction: 1
   m_DamageProcessor: {fileID: 0}
   m_DamageAmount: 30
-  m_ImpactForce: 7.5
+  m_ImpactForce: 9
   m_ImpactForceFrames: 5
   m_ImpactStateName: 
   m_ImpactStateDisableTimer: 10
